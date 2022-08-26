@@ -28,7 +28,7 @@ type TopicSubscriptionConfig struct {
 
 func main() {
 	pubSubConfigJson := os.Getenv("PUBSUB_CONFIG")
-	fmt.Println("pubsub-setup config: " + pubSubConfigJson)
+	fmt.Println("pubsub-provisioner config: " + pubSubConfigJson)
 
 	pubSubConfigByteArray := []byte(pubSubConfigJson)
 
@@ -55,5 +55,5 @@ func main() {
 		}
 	}
 
-	fmt.Println("Pub/Sub setup complete!")
+	fmt.Println("Pub/Sub provisioning complete!")
 }

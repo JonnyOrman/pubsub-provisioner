@@ -7,3 +7,5 @@
 !LICENSE
 !README.md
 !Dockerfile
+!.dockerignore
+!CHANGELOG.md
